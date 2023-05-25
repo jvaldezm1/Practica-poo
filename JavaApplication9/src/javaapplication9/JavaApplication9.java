@@ -34,6 +34,7 @@ public class JavaApplication9 {
            System.out.println("9. comun divisor");
            System.out.println("10. Generar numero aleatorio");
            System.out.println("11. calculo de un numero decimal");
+           System.out.println("12. Calcular area de un cuadrado");
            System.out.println("Selecciona una opcion:  ");
            System.out.println("=======================");
            opcion = sn.nextInt();
@@ -80,7 +81,7 @@ public class JavaApplication9 {
                    System.out.println("El numero decimal es = " +CalculadoraEspecial.redondearDecimal(15,25));
                    break;
                case 12:
-                   System.out.println();
+                  System.out.println("Area de un cuadrado es = "+CalculadoraEspecial.
                    break;
            }
            

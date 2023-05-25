@@ -40,4 +40,13 @@ public class CalculadoraEspecial {
     return Math.round(numero * factor) / (double) factor;
 }
   
+  //calcular area de un cuadrado 
+ public static int CalculoArea(int lado ){
+     int area = lado * lado;
+     return area;
+ }
+
+   
+  
+  
 }
