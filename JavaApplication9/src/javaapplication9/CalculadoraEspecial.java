@@ -41,9 +41,8 @@ public class CalculadoraEspecial {
 }
   
   //calcular area de un cuadrado 
- public static int CalculoArea(int lado ){
-     int area = lado * lado;
-     return area;
+ public static int  CalculoArea( int numero1 ,int numero2  ){
+     return numero1 * numero2;
  }
 
    

@@ -81,7 +81,7 @@ public class JavaApplication9 {
                    System.out.println("El numero decimal es = " +CalculadoraEspecial.redondearDecimal(15,25));
                    break;
                case 12:
-                  System.out.println("Area de un cuadrado es = "+CalculadoraEspecial.
+                 System.out.println("area de un cuadrado es = "+ CalculadoraEspecial.CalculoArea(5,5));
                    break;
            }
            
