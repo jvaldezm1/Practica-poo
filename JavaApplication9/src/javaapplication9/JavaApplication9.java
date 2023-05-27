@@ -29,6 +29,7 @@ public class JavaApplication9 {
            System.out.println("6. Verificar numero Primo");
            System.out.println("********");
            System.out.println("Calculadora Especial");
+             System.out.println("********");
            System.out.println("7. Radio de un circulo");
            System.out.println ("8. calculo de un factorial");
            System.out.println("9. comun divisor");
