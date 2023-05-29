@@ -1,6 +1,7 @@
 
 package javaapplication9;
 
+
 import java.util.Scanner;
 
 
@@ -11,19 +12,21 @@ public class JavaApplication9 {
  
     public static void main(String[] args) {
        
-        Scanner sn= new Scanner (System.in);
-        Calculadora Calculadora = new Calculadora();
-     CalculadoraEspecial CalculadoraEspecial=new CalculadoraEspecial();
-     
-     
+       Scanner sn= new Scanner (System.in);
+       CalculadoraEspecial Calculadora = new CalculadoraEspecial();
+       
+       
+       Calculadora.setColor("Azul");
+       System.out.println("el color es :"+Calculadora.getColor());
+
+       
+       Calculadora.setNombrePropietario("jose");
+       System.out.println("el nombre del propietario es :"+Calculadora.getNombrePropietario());
+       
+       
+       Calculadora.setDimensionPantalla(10);
+       System.out.println("la dimension de pantalla es : "+Calculadora.getDimensionPantalla());
    
-     
-     
-     
-     
-     
-     
-     
      
      
        /* boolean salir = false;

@@ -22,6 +22,9 @@ public class Calculadora {
     //Constructor vacio
     public Calculadora(){
     }
+    
+    
+    
     /*
     //Are de declaración de metodos
     //en clase hemos dicho "funciones" anteriormente, pero en POO son metodos.
@@ -62,45 +65,53 @@ public class Calculadora {
     */
 
     // creacion de los metodos geter y setter 
-    public String getTipoCalculadora() {
-        return tipoCalculadora;
-    }
 
     public void setTipoCalculadora(String tipoCalculadora) {
         this.tipoCalculadora = tipoCalculadora;
-    }
-
-    public String getColor() {
-        return color;
     }
 
     public void setColor(String color) {
         this.color = color;
     }
 
-    public int getDimensionPantalla() {
-        return dimensionPantalla;
-    }
-
     public void setDimensionPantalla(int dimensionPantalla) {
         this.dimensionPantalla = dimensionPantalla;
-    }
-
-    public String getNumeroDeSerie() {
-        return numeroDeSerie;
     }
 
     public void setNumeroDeSerie(String numeroDeSerie) {
         this.numeroDeSerie = numeroDeSerie;
     }
 
-    public String getNombrePropietario() {
-        return nombrePropietario;
-    }
-
     public void setNombrePropietario(String nombrePropietario) {
         this.nombrePropietario = nombrePropietario;
     }
     
+    
+
+   
+    public String getTipoCalculadora() {
+        return this.tipoCalculadora;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+
+    public int getDimensionPantalla() {
+        return dimensionPantalla;
+    }
+
+    public String getNumeroDeSerie() {
+        return numeroDeSerie;
+    }
+
+   
+
+    public String getNombrePropietario() {
+        return nombrePropietario;
+    }
+
+   
     
 }
