@@ -17,7 +17,8 @@ public class Calculadora {
         this.color="Azul";
         this.nombrePropietario=propietario;
     }
-    
+   
+    /*
     //Constructor vacio
     public Calculadora(){
     }
@@ -57,8 +58,49 @@ public class Calculadora {
         }else{
             return false;
         }
-    }   
-    
+    } 
+    */
+
+    // creacion de los metodos geter y setter 
+    public String getTipoCalculadora() {
+        return tipoCalculadora;
+    }
+
+    public void setTipoCalculadora(String tipoCalculadora) {
+        this.tipoCalculadora = tipoCalculadora;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getDimensionPantalla() {
+        return dimensionPantalla;
+    }
+
+    public void setDimensionPantalla(int dimensionPantalla) {
+        this.dimensionPantalla = dimensionPantalla;
+    }
+
+    public String getNumeroDeSerie() {
+        return numeroDeSerie;
+    }
+
+    public void setNumeroDeSerie(String numeroDeSerie) {
+        this.numeroDeSerie = numeroDeSerie;
+    }
+
+    public String getNombrePropietario() {
+        return nombrePropietario;
+    }
+
+    public void setNombrePropietario(String nombrePropietario) {
+        this.nombrePropietario = nombrePropietario;
+    }
     
     
 }

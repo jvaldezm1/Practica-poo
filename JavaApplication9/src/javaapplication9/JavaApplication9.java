@@ -10,7 +10,10 @@ public class JavaApplication9 {
 
  
     public static void main(String[] args) {
-        Scanner sn= new Scanner (System.in);
+        
+        
+    
+        /*Scanner sn= new Scanner (System.in);
         Calculadora Calculadora = new Calculadora();
      CalculadoraEspecial CalculadoraEspecial=new CalculadoraEspecial();
         boolean salir = false;
@@ -42,7 +45,7 @@ public class JavaApplication9 {
           
            
            
-           switch (opcion){
+          switch (opcion){
                
                case 1:System.out.println("El resultado de la suma es = " + Calculadora.sumar(10, 5));
                    break;
@@ -88,8 +91,9 @@ public class JavaApplication9 {
            
         }  while(!salir);  
       
-    }
+    }*/
 }
+    }
            
         
         

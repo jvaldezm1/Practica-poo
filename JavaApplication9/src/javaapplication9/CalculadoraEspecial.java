@@ -3,13 +3,17 @@ package javaapplication9;
 
 
 public class CalculadoraEspecial {
+
     
  
-    //Are de declaración de metodos
+    
+    
+
+  /*//Are de declaración de metodos
     //en clase hemos dicho "funciones" anteriormente, pero en POO son metodos.
     
-    
-   //calculo de area de un circulo  
+     
+//calculo de area de un circulo  
  public static double calcularAreaCirculo(double radio) {
     return Math.PI * Math.pow(radio, 2);
 }
@@ -44,8 +48,6 @@ public class CalculadoraEspecial {
  public static int  CalculoArea( int numero1 ,int numero2  ){
      return numero1 * numero2;
  }
-
    
-  
-  
+  */
 }
