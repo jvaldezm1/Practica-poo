@@ -2,13 +2,14 @@
 package javaapplication9;
 
 
-public class CalculadoraEspecial {
+public class CalculadoraEspecial extends Calculadora  {
 
-    
- 
-    
-    
+public CalculadoraEspecial(){
 
+}
+
+
+  
   /*//Are de declaración de metodos
     //en clase hemos dicho "funciones" anteriormente, pero en POO son metodos.
     
@@ -50,4 +51,28 @@ public class CalculadoraEspecial {
  }
    
   */
+
+    public String getTipoCalculadora() {
+        return tipoCalculadora;
+    }
+
+    public void setTipoCalculadora(String tipoCalculadora) {
+        this.tipoCalculadora = tipoCalculadora;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getDimensionPantalla() {
+        return dimensionPantalla;
+    }
+
+    public void setDimensionPantalla(int dimensionPantalla) {
+        this.dimensionPantalla = dimensionPantalla;
+    }
 }

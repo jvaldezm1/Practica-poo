@@ -18,11 +18,11 @@ public class Calculadora {
         this.nombrePropietario=propietario;
     }
    
-    /*
+   
     //Constructor vacio
     public Calculadora(){
     }
-    
+    /*
     //Are de declaración de metodos
     //en clase hemos dicho "funciones" anteriormente, pero en POO son metodos.
     public double sumar(double primerNumero, double segundoNumero){
